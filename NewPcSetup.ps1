@@ -1,6 +1,6 @@
 # Description: Boxstarter Script
-# Author: Microsoft
-# Common dev settings for desktop app development
+# Author: Dethkube
+# Common setup for desktop
 
 Disable-UAC
 
