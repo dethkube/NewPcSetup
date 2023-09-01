@@ -25,7 +25,7 @@ function executeScript {
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "Browsers.ps1";
-executeScript "CommonDevTools.ps1";
+executeScript "CommonTools.ps1";
 
 #--- Common Programs ---
 choco install -y steam
