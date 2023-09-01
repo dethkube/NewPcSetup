@@ -27,8 +27,9 @@ executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "CommonDevTools.ps1";
 
-#--- Tools ---
-
+#--- Common Programs ---
+choco install -y steam
+choco install -y discord
 
 #--- Media Programs ---
 choco install -y spotify
