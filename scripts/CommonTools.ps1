@@ -6,5 +6,5 @@ choco install -y vlc.install
 choco install -y wiztree
 choco install -y crystaldiskinfo
 choco install -y microsoft-windows-terminal
-choco install -y deluge
 choco install -y virtualclonedrive
+# choco install -y deluge # old version, doesn't work
