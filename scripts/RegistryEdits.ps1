@@ -9,6 +9,9 @@ reg add "HKEY_CURRENT_USER\SOFTWARE\CLASSES\CLSID\{86ca1aa0-34aa-4e8b-a509-50c90
 # Remove Explorer "Command Bar" (no longer works)
 # reg add "HKCU\Software\Classes\CLSID\{d93ed569-3b3e-4bff-8355-3c44f6a52bb5}\InprocServer32" /f /ve
 
+# Hide search on task bar
+Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Search -Name SearchBoxTaskbarMode -Value 0 -Type DWord -Force
+
 # Restart Windows Explorer. (Applies the above settings without needing a reboot)
 taskkill /f /im explorer.exe
 start explorer.exe
