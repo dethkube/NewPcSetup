@@ -23,7 +23,7 @@ function executeScript {
 
 #--- Setting up Windows ---
 executeScript "FileExplorerSettings.ps1";
-executeScript "Win11Debloat.ps1";
+# executeScript "Win11Debloat.ps1"; # doesn't seem to work with chocolatey
 executeScript "Browsers.ps1";
 executeScript "CommonTools.ps1";
 
