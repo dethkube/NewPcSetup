@@ -23,7 +23,7 @@ function executeScript {
 
 #--- Setting up Windows ---
 executeScript "FileExplorerSettings.ps1";
-executeScript "RemoveDefaultApps.ps1";
+executeScript "Win11Debloat.ps1";
 executeScript "Browsers.ps1";
 executeScript "CommonTools.ps1";
 
@@ -32,7 +32,7 @@ choco install -y steam
 choco install -y discord
 
 #--- Media Programs ---
-choco install -y spotify
+choco install -y tidal
 
 #--- reenabling critial items ---
 Enable-UAC
