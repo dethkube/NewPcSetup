@@ -33,6 +33,8 @@ choco install -y discord
 
 #--- Media Programs ---
 choco install -y tidal
+choco install -y plex
+choco install -y plexamp
 
 #--- reenabling critial items ---
 Enable-UAC
